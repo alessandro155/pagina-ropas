@@ -1,0 +1,53 @@
+.body{
+    background: url(../img/fondoartesanal.jpg);
+
+     }
+     .alpha { color: purple; }
+     .beta {
+       color: yellow-300;
+       background-color: indigo-900;
+     }
+     .menu{
+        background-color: rgb(255, 183, 0);
+        list-style: none;
+        padding: 0;
+        width: 80%;
+        height: auto ;
+        max-width: 900px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: center;
+        padding: 10px 80px;
+        align-items: center; }
+
+        .submenu{
+            position: absolute;
+            background: rgb(255, 183, 0);
+            width: 120%;
+            display: none; 
+            max-width: 120%;
+        }
+        .submenu li a{
+            display: block;
+            padding: 5px;
+            color: black;
+        }
+        .menu li:hover .submenu{
+            display: block;
+            width: 180px;
+    }
+    .menu li{
+        text-align: center;
+    }
+    .menu li a{
+        color: white;
+        text-decoration: none;
+        padding: 10px 40px;
+    }
+    .menu li a:hover{
+        background-color: blueviolet;
+        width: 150px;
+    }
+    .p {
+        text-align: center;
+    }
